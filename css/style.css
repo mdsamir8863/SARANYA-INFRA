@@ -387,7 +387,7 @@
 
 /*** Carousel Hero Header Start ***/
 .hero-section {
-    background-image: url(../img/carousel-1.jpg);
+    background-image: url(../img/products/img-2.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -399,7 +399,7 @@
 }
 
 .hero-bg-half-1 {
-    background-image: url(../img/header-2.jpg);
+    background-image: url(../img/products/img-1.png);
     clip-path: polygon(37% 0%, 100% 0%, 100% 100%, 0% 100%);
     filter: grayscale(10%);
     transform: scale(100% - 50%);
@@ -414,7 +414,7 @@
 }
 
 .hero-bg-half-2 {
-    background-image: url(../img/header-1.jpg);
+    background-image: url(../img/products/bl\ 30-1.png);
     clip-path: polygon(37% 0%, 100% 0%, 100% 100%, 0% 100%);
     filter: grayscale(10%);
     transform: scale(100% - 50%);
@@ -692,35 +692,35 @@
 }
 /*** Service End ***/
 
-/*** Projects Start ***/
-.projects .nav-item {
+/*** products Start ***/
+.products .nav-item {
     box-shadow: 0 0 30px rgba(0, 0, 0, .09);
 }
 
-.projects-item .projects-content {
+.products-item .products-content {
     box-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
 
-.projects .nav-item a.active {
+.products .nav-item a.active {
     background: var(--bs-primary);
 }
 
-.projects .nav-item a span {
+.products .nav-item a span {
     color: var(--bs-dark);
 }
 
-.projects .nav-item a.active span {
+.products .nav-item a.active span {
     color: var(--bs-white);
 }
 
-.projects .nav-item a.active .projects-icon {
+.products .nav-item a.active .products-icon {
     background: var(--bs-dark) !important;
 }
 
-.projects .nav-item a.active .projects-icon span {
+.products .nav-item a.active .products-icon span {
     color: var(--bs-primary);
 }
-/*** Projects End ***/
+/*** products End ***/
 
 
 /*** Blog Start ***/
